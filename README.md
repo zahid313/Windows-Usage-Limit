@@ -36,6 +36,9 @@ Windows-Usage-Limit/
 ├── Check-Status.bat         # Helper script to display remaining time and service status
 ├── Reset-Day.bat            # Helper script to reset today's usage counter
 ├── QuickTest-15Sec.bat      # Fast-forwards timer to 1 minute left for rapid testing
+├── Optimize-StudentPC.bat   # Helper script to disable non-essential services (Xbox, telemetry)
+├── Optimize-StudentServices.ps1 # Optimization script with automatic state backup
+├── Restore-StudentPC.bat    # Helper script to restore all services to previous states
 └── .gitignore               # Ignores runtime state and log files
 ```
 

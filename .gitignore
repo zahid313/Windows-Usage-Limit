@@ -2,6 +2,7 @@
 *.log
 usage_state.json
 session_titles.json
+services_backup.json
 
 # OS generated files
 Thumbs.db
