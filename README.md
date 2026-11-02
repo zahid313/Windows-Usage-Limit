@@ -96,3 +96,4 @@ Modify `config.json` to customize rules:
 ## License
 
 This project is licensed under the MIT License.
+
