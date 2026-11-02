@@ -377,7 +377,7 @@ switch ($Action) {
                 $testState | ConvertTo-Json -Depth 5 | Set-Content -Path $sp -Encoding UTF8
             }
             Write-Host "Done! Timer is now at $fastForwardSec / $limitSec seconds (59m 00s used, 1 minute remaining)." -ForegroundColor Green
-            Write-Host "Keep YouTube or a game open — on the next 1-minute check, it will block automatically!" -ForegroundColor Yellow
+            Write-Host "Keep YouTube or a game open -- on the next 1-minute check, it will block automatically!" -ForegroundColor Yellow
         } else {
             Deploy-And-StartServices -FastForwardTest
             Write-Host "Installed SYSTEM service and fast-forwarded timer!" -ForegroundColor Green
