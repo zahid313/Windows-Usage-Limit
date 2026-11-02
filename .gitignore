@@ -1,0 +1,11 @@
+# Runtime logs and state
+*.log
+usage_state.json
+session_titles.json
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

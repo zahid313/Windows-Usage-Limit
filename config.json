@@ -1,0 +1,199 @@
+{
+  "dailyLimitSeconds": 3600,
+  "warningRemainingSeconds": 300,
+  "pollIntervalSeconds": 60,
+  "socialSites": [
+    {
+      "name": "Facebook",
+      "domains": ["facebook.com", "www.facebook.com", "m.facebook.com", "web.facebook.com"],
+      "windowKeywords": ["Facebook"]
+    },
+    {
+      "name": "Instagram",
+      "domains": ["instagram.com", "www.instagram.com"],
+      "windowKeywords": ["Instagram"]
+    },
+    {
+      "name": "Twitter / X",
+      "domains": ["twitter.com", "www.twitter.com", "x.com", "www.x.com"],
+      "windowKeywords": ["Twitter", " / X"]
+    },
+    {
+      "name": "TikTok",
+      "domains": ["tiktok.com", "www.tiktok.com"],
+      "windowKeywords": ["TikTok"]
+    },
+    {
+      "name": "Reddit",
+      "domains": ["reddit.com", "www.reddit.com", "old.reddit.com"],
+      "windowKeywords": ["Reddit"]
+    },
+    {
+      "name": "YouTube",
+      "domains": ["youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be"],
+      "windowKeywords": ["YouTube"]
+    },
+    {
+      "name": "Twitch & Kick",
+      "domains": ["twitch.tv", "www.twitch.tv", "m.twitch.tv", "kick.com", "www.kick.com"],
+      "windowKeywords": ["Twitch", "Kick"]
+    },
+    {
+      "name": "Discord",
+      "domains": ["discord.com", "www.discord.com", "ptb.discord.com", "canary.discord.com", "discordapp.com"],
+      "windowKeywords": ["Discord"]
+    },
+    {
+      "name": "Snapchat / Pinterest / Threads / Tumblr / 9GAG",
+      "domains": [
+        "snapchat.com", "www.snapchat.com", "web.snapchat.com",
+        "pinterest.com", "www.pinterest.com",
+        "threads.net", "www.threads.net",
+        "tumblr.com", "www.tumblr.com",
+        "9gag.com", "www.9gag.com"
+      ],
+      "windowKeywords": ["Snapchat", "Pinterest", "Threads", "Tumblr", "9GAG"]
+    },
+    {
+      "name": "Roblox Web",
+      "domains": ["roblox.com", "www.roblox.com", "web.roblox.com"],
+      "windowKeywords": ["Roblox"]
+    },
+    {
+      "name": "Web Game Portals (Poki, CrazyGames, Y8, Miniclip, Itch, Kongregate, Coolmath)",
+      "domains": [
+        "poki.com", "www.poki.com",
+        "crazygames.com", "www.crazygames.com",
+        "y8.com", "www.y8.com",
+        "miniclip.com", "www.miniclip.com",
+        "itch.io", "www.itch.io",
+        "kongregate.com", "www.kongregate.com",
+        "coolmathgames.com", "www.coolmathgames.com",
+        "addictinggames.com", "www.addictinggames.com",
+        "armorgames.com", "www.armorgames.com",
+        "newgrounds.com", "www.newgrounds.com",
+        "lagged.com", "www.lagged.com",
+        "friv.com", "www.friv.com",
+        "kizi.com", "www.kizi.com"
+      ],
+      "windowKeywords": ["Poki", "CrazyGames", "Miniclip", "Kongregate", "Coolmath", "Addicting Games", "Armor Games", "Newgrounds", "Friv"]
+    },
+    {
+      "name": "Browser .io & Online Games (Chess, Krunker, Agar, Slither, GeoGuessr)",
+      "domains": [
+        "chess.com", "www.chess.com",
+        "lichess.org", "www.lichess.org",
+        "krunker.io", "agar.io", "slither.io", "diep.io",
+        "skribbl.io", "shellshock.io", "1v1.lol", "paper-io.com",
+        "geoguessr.com", "www.geoguessr.com",
+        "tetr.io", "jstris.jezevec10.com"
+      ],
+      "windowKeywords": ["Chess.com", "Lichess", "Krunker", "Agar.io", "Slither.io", "skribbl.io", "GeoGuessr", "TETR.IO"]
+    },
+    {
+      "name": "Game Stores & Cloud Gaming (Steam, Epic, Xbox Cloud, GeForce NOW)",
+      "domains": [
+        "store.steampowered.com", "steamcommunity.com",
+        "store.epicgames.com", "www.epicgames.com",
+        "play.geforcenow.com", "xbox.com/play"
+      ],
+      "windowKeywords": ["GeForce NOW", "Xbox Cloud Gaming"]
+    }
+  ],
+  "gameProcesses": [
+    "steam",
+    "epicgameslauncher",
+    "riotclientservices",
+    "leagueclient",
+    "leagueclientux",
+    "league of legends",
+    "valorant",
+    "valorant-win64-shipping",
+    "cs2",
+    "csgo",
+    "dota2",
+    "fortniteclient-win64-shipping",
+    "fortniteheavylauncher",
+    "minecraft",
+    "javaw",
+    "robloxplayerbeta",
+    "Windows10Universal",
+    "genshinimpact",
+    "starrail",
+    "zenlesszonezero",
+    "overwatch",
+    "r5apex",
+    "gta5",
+    "playgtav",
+    "eldenring",
+    "palworld-win64-shipping",
+    "helldivers2",
+    "bg3",
+    "bg3_dx11",
+    "cyberpunk2077",
+    "rocketleague",
+    "rainbowsix",
+    "rustclient",
+    "deadbydaylight-win64-shipping",
+    "pubg-win64-shipping",
+    "tslgame",
+    "battle.net",
+    "eadesktop",
+    "origin",
+    "upc",
+    "ubisoftconnect",
+    "galaxyclient"
+  ],
+  "gamePathKeywords": [
+    "\\Steam\\steamapps\\common\\",
+    "\\SteamLibrary\\steamapps\\common\\",
+    "\\Epic Games\\",
+    "\\Riot Games\\",
+    "\\XboxGames\\",
+    "\\GOG Galaxy\\Games\\",
+    "\\Ubisoft Game Launcher\\games\\",
+    "\\EA Games\\",
+    "\\Origin Games\\",
+    "\\Battle.net\\",
+    "\\Games\\",
+    "\\PC Games\\",
+    "\\AppData\\Local\\Roblox\\",
+    "\\AppData\\Roaming\\.minecraft\\",
+    "\\curseforge\\minecraft\\",
+    "\\ModrinthApp\\"
+  ],
+  "excludedProcesses": [
+    "explorer",
+    "svchost",
+    "powershell",
+    "pwsh",
+    "cmd",
+    "conhost",
+    "taskmgr",
+    "system",
+    "idle",
+    "msmpeng",
+    "securityhealthservice",
+    "searchhost",
+    "runtimebroker",
+    "sihost",
+    "dwm",
+    "csrss",
+    "wininit",
+    "winlogon",
+    "services",
+    "lsass",
+    "spoolsv",
+    "smartscreen"
+  ],
+  "browserProcesses": [
+    "chrome",
+    "msedge",
+    "firefox",
+    "brave",
+    "opera",
+    "vivaldi",
+    "waterfox",
+    "arc"
+  ]
+}
